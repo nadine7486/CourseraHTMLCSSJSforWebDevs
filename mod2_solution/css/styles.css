@@ -1,5 +1,94 @@
 /*CSS file for Module 2 Solution*/
+* {
+	box-sizing: border-box;
+  	
+}
 
-h1{
-	color:blue;
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin:0;
+  	padding:0;
+  	font-size:16px;
+}
+
+h1 {
+  color:black;
+  text-align: center;
+  font-size: 175%;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #fee8e8;
+  height:185px;
+  color: black;
+  font-weight: 400;
+  padding: 40px 10px 10px 10px;
+  margin-left:15px;
+  margin-right:15px;
+  position:relative;
+}
+
+div#container{
+	margin-left:15px;
+	margin-right:15px;
+}
+
+
+#tag1, #tag2, #tag3{
+	position: absolute;	
+	top:0px;
+	right:0px;
+	width:120px;
+	padding:4px;
+	border-bottom:1px solid #000000;
+	border-left:1px solid #000000;
+	font-size:1.25em;
+	font-weight: 600;
+	text-align: center;
+}
+
+#tag1{
+	background-color: #f3b05a;
+}
+
+#tag2{
+	background-color: #f46a4e;
+}
+
+#tag3{
+	background-color: #7c4b70;
+	color:#ffffff;
+}
+
+/********** Desktop view **********/
+@media (min-width: 992px) {
+   .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+    float: left;
+	}
+
+	.col-md-6 {
+    width: 50%;
+  	}
+
+  	.col-md-12 {
+    width: 100%;
+  	}
+}
+
+/********** Mobile view **********/
+@media (max-width: 767px) {
+	.col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+
 }
