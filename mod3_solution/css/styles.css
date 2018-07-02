@@ -1,1 +1,7 @@
 /*------------ Module 3 Custom Css File ---------------*/
+body{
+	font-size: 16px;
+	color: #ffffff;
+	background-color: green;
+	font-family: Arial, Helvetica, sans-serif;
+}
