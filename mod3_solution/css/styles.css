@@ -50,12 +50,6 @@ p{
 	text-decoration: none;
 }
 
-
-#nav-list a {
-	text-align: center;
-}
-
-
 /********** Extra small devices only **********/
 @media (max-width: 767px){
 #mynavbar {
