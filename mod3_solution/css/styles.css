@@ -3,7 +3,26 @@ body{
 	font-size: 16px;
 	color: #fff;
 	background-color: #484043;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+h2{
+	margin-bottom: 40px;
+	margin-top: 0px;
+	font-family: 'Galada', cursive;
+}
+
+h3{
+	padding-top: 10px;
+	font-family: 'Galada', cursive;
+}
+
+p{
+	padding: 5px 20px 20px 20px;
+}
+
+.mainbg{
+	background-color: #6E6568;
 }
 
 /** HEADER **/
@@ -40,7 +59,22 @@ body{
 /********** Extra small devices only **********/
 @media (max-width: 767px){
 #mynavbar {
-	background-color:  #EAD3A8;
+	background-color:  #f5e7ce;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #f7bd52;
+	color:white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #f7bd52;
+}
+
+.mainbg{
+	margin: 0px 60px;
 }
 
 }
