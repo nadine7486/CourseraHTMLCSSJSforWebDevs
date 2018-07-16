@@ -118,7 +118,7 @@ function buildAndShowHomeHTML (categories) {
       //
       // var homeHtmlToInsertIntoMainPage = ....
       var homeHtmlToInsertIntoMainPage = 
-        "'" + insertProperty(homeHtmlToInsertIntoMainPage,"short_name",chosenCategoryShortName) + "'";
+        insertProperty(homeHtmlToInsertIntoMainPage,"short_name",chosenCategoryShortName);
 
 
       // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
